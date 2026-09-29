@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOKS = ROOT / "notebooks"
 
-REPO = "https://github.com/pranathigadhanki-alt/-Users-pranathigadhanki-Projects-cctv-anomaly-guard.git"
+REPO = "https://github.com/pranathigadhanki-alt/cctv-anomaly-guard.git"
 VIDEO = "data/processed/clean_clip.mp4"
 
 SETUP_MD = f"""## Setup cell — run this first every session
@@ -16,7 +16,7 @@ SETUP_MD = f"""## Setup cell — run this first every session
 
 **You should see:** Lines ending with `All set` or `OK` from the check script."""
 
-REPO_DIR = "-Users-pranathigadhanki-Projects-cctv-anomaly-guard"
+REPO_DIR = "cctv-anomaly-guard"
 SETUP_CODE = f"""import os
 REPO_DIR = "{REPO_DIR}"
 if not os.path.isdir(REPO_DIR):

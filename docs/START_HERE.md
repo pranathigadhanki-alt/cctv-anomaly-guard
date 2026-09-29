@@ -24,7 +24,7 @@ Optional: `06_autoencoder_anomaly.ipynb` (harder, for research datasets).
 Open notebook **00** from GitHub:
 
 ```text
-https://colab.research.google.com/github/pranathigadhanki-alt/-Users-pranathigadhanki-Projects-cctv-anomaly-guard/blob/main/notebooks/00_setup_data.ipynb
+https://colab.research.google.com/github/pranathigadhanki-alt/cctv-anomaly-guard/blob/main/notebooks/00_setup_data.ipynb
 ```
 
 **File → Save a copy in Drive** before you edit.

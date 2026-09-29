@@ -12,7 +12,7 @@ Learn **video anomaly detection** step-by-step in **Google Colab** — written f
 ## Colab — notebook 0 (run this first)
 
 ```text
-https://colab.research.google.com/github/pranathigadhanki-alt/-Users-pranathigadhanki-Projects-cctv-anomaly-guard/blob/main/notebooks/00_setup_data.ipynb
+https://colab.research.google.com/github/pranathigadhanki-alt/cctv-anomaly-guard/blob/main/notebooks/00_setup_data.ipynb
 ```
 
 Then do **01 → 05** in order. All code is ready in **`src/`**; notebooks explain **what** to run and **why** in plain English.
