@@ -1,0 +1,14 @@
+{
+  "zones": [
+    {
+      "name": "restricted_gate",
+      "type": "restricted",
+      "points": [[50, 50], [400, 50], [400, 350], [50, 350]]
+    },
+    {
+      "name": "watch_lobby",
+      "type": "watch",
+      "points": [[420, 80], [600, 80], [600, 400], [420, 400]]
+    }
+  ]
+}
