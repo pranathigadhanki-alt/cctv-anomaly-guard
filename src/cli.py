@@ -12,7 +12,10 @@ REPO = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     p = argparse.ArgumentParser(description="CCTV Anomaly Guard — YOLO + zones + alerts")
-    p.add_argument("--video", type=Path, default=REPO / "data/samples/walking.mp4")
+    default_video = REPO / "data/processed/clean_clip.mp4"
+    if not default_video.exists():
+        default_video = REPO / "data/samples/walking.mp4"
+    p.add_argument("--video", type=Path, default=default_video)
     p.add_argument("--zones", type=Path, default=REPO / "configs/zones.example.json")
     p.add_argument("--out", type=Path, default=REPO / "outputs/annotated.mp4")
     p.add_argument("--alerts", type=Path, default=REPO / "outputs/alert_log.csv")

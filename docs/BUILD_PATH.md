@@ -1,9 +1,12 @@
 # Step-by-step build path
 
+**New to ML?** Read **[START_HERE.md](START_HERE.md)** first.
+
 Follow **one notebook per step**. Each step adds one layer; by notebook **05** you have a full **Option A** pipeline.
 
 | Step | Notebook | You implement / run | Outcome |
 |------|----------|---------------------|---------|
+| 0 | `00_setup_data` | `prepare_data.py` — download + clean | `clean_clip.mp4` + manifest |
 | 1 | `01_environment_and_stream` | OpenCV read loop, save frames | Video loads, FPS known |
 | 2 | `02_yolo_detection` | YOLOv8 on each frame | Person boxes drawn |
 | 3 | `03_tracking_zones` | Tracker + polygon zones | Track IDs, inside/outside zone |
